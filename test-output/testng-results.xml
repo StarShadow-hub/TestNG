@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T16:12:04Z" name="Suite" finished-at="2024-10-07T16:13:10Z" duration-ms="65364">
+    <groups>
+      <group name="smoke">
+        <method signature="HomeWorkTestNG.brokenLinks()[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" name="brokenLinks" class="org.homeWork1.HomeWorkTestNG"/>
+        <method signature="HomeWorkTestNG.login(java.lang.String, java.lang.String)[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" name="login" class="org.homeWork1.HomeWorkTestNG"/>
+        <method signature="HomeWorkTestNG.screens()[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" name="screens" class="org.homeWork1.HomeWorkTestNG"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomeWorkTestNG.login(java.lang.String, java.lang.String)[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" name="login" class="org.homeWork1.HomeWorkTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-10-07T16:12:04Z" name="Test" finished-at="2024-10-07T16:13:10Z" duration-ms="65364">
+      <class name="org.homeWork1.HomeWorkTestNG">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String, java.lang.String)[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" started-at="2024-10-07T16:12:04Z" name="browserLaunch" finished-at="2024-10-07T16:12:08Z" duration-ms="3810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="brokenLinks()[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" started-at="2024-10-07T16:12:08Z" name="brokenLinks" finished-at="2024-10-07T16:12:38Z" duration-ms="30205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinks -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" started-at="2024-10-07T16:12:38Z" name="login" data-provider="givingdatas" finished-at="2024-10-07T16:12:39Z" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijayakumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="screens()[pri:0, instance:org.homeWork1.HomeWorkTestNG@57db2b13]" started-at="2024-10-07T16:12:39Z" name="screens" finished-at="2024-10-07T16:13:10Z" duration-ms="30980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screens -->
+      </class> <!-- org.homeWork1.HomeWorkTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
