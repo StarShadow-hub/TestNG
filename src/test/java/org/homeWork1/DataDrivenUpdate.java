@@ -19,8 +19,8 @@ public class DataDrivenUpdate {
 		Sheet sheet = book.getSheet("Sheet1");
 		Row row = sheet.getRow(1);
 		Cell cell = row.getCell(0);
-		String scv = cell.getStringCellValue();
-		if(scv.equals("kumar")) {
+		String vu = cell.getStringCellValue();
+		if(vu.equals("kumar")) {
 			cell.setCellValue("vijay");
 		}else {
 			System.out.println("invalid data");
